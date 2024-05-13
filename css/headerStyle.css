@@ -1,0 +1,52 @@
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+
+ @media (max-width: 1300px)
+ {
+    .container {
+        flex-direction: column;
+    }
+ }
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 85px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    margin-left: 20px;
+}
+.menu li:first-child {
+    margin-left: 0;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
